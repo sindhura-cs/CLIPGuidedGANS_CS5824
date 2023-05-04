@@ -30,3 +30,30 @@ Model is trained using infer cluster on [ARC](https://arc.vt.edu/) with 32 cores
 ```
 sbatch train_stylegan.sh
 ```
+
+## (4) References
+```
+@InProceedings{Patashnik_2021_ICCV,
+    author    = {Patashnik, Or and Wu, Zongze and Shechtman, Eli and Cohen-Or, Daniel and Lischinski, Dani},
+    title     = {StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {2085-2094}
+}
+```
+```
+@inproceedings{Karras2019stylegan2,
+  title     = {Analyzing and Improving the Image Quality of {StyleGAN}},
+  author    = {Tero Karras and Samuli Laine and Miika Aittala and Janne Hellsten and Jaakko Lehtinen and Timo Aila},
+  booktitle = {Proc. CVPR},
+  year      = {2020}
+}
+```
+```
+@misc{unpublished2021clip,
+    title  = {CLIP: Connecting Text and Images},
+    author = {Alec Radford, Ilya Sutskever, Jong Wook Kim, Gretchen Krueger, Sandhini Agarwal},
+    year   = {2021}
+}
+```
