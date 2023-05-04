@@ -16,11 +16,11 @@ Run the final model on Collab: [![Open In Colab](https://colab.research.google.c
  - CUDA
 
 ## (2) Download FashionIQ Dataset
-Image Download script is inculded inside FashionIQData
+Image Download script is inculded inside FashionIQ
 ``` 
 run_download_image.sh
 ```
-Create lmdb dataset: python file is included inside FashionIQData
+Create lmdb dataset: python file is included inside FashionIQ
 + all the images are resized to 256px
 ```
 python prepare_data.py --out LMDB_PATH --size 256 DATASET_PATH
